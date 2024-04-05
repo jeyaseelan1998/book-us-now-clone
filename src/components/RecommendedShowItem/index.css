@@ -1,0 +1,68 @@
+.recommended-show-card {
+    height: 445px;
+    flex-shrink: 0;
+    width: 320px;
+    border-radius: 23px;
+    color: #FFF;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.recommended-show-card img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    scale: 1.135;
+}
+
+.show-details {
+    width: 100%;
+    align-self: flex-end;
+    position: relative;
+    padding: 16px 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 15px;
+}
+
+.event-heading {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.date {
+    font-size: 14px;
+    text-align: end;
+    align-self: center;
+    color: #B0BABF;
+}
+
+.show-details .location-container {
+    color: #B0BABF;
+    margin-top: 0;
+}
+
+.show-details .location-container .location-icon {
+    color: inherit;
+    font-size: 16px;
+}
+
+.show-details .location-container>p {
+    margin-right: 0;
+    color: inherit;
+    font-size: 16px;
+}
+
+.weather-distance {
+    font-size: small;
+    text-align: end;
+    align-self: center;
+    color: #B0BABF;
+}
+
+.weather-distance::after {
+    content: "km";
+}

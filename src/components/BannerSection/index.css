@@ -1,0 +1,123 @@
+.banner-section {
+    flex: 1;
+    background-image: url('https://res.cloudinary.com/dj5c1rxzz/image/upload/v1712142886/bookusnow/event.svg');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    padding-top: 50px;
+}
+
+.banner-section h2 {
+    margin: 0 auto 10px;
+    max-width: 80%;
+    text-align: center;
+    font: 600 16px/1.5 "Inter";
+}
+
+.banner-section p {
+    margin: 8px auto 0;
+    text-align: center;
+    max-width: 80%;
+    font: 500 12px/1.25 "Inter";
+}
+
+@media screen and (min-width: 320px) {
+
+    .banner-section h2,
+    .banner-section p {
+        max-width: 70%;
+        line-height: 1.5;
+    }
+
+    .banner-section h2 {
+        font-size: 18px;
+    }
+
+    .banner-section p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .banner-section h2 {
+        max-width: 60%;
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .banner-section p {
+        max-width: 60%;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+    .banner-section h2 {
+        width: 80%;
+        max-width: 474px;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .banner-section p {
+        width: 80%;
+        max-width: 474px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .banner-section h2 {
+        max-width: 464px;
+        font-size: 28px;
+    }
+
+    .banner-section p {
+        max-width: 464px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-section h2 {
+        width: 80%;
+        max-width: 600px;
+        font-size: 32px;
+    }
+
+    .banner-section p {
+        width: 80%;
+        max-width: 600px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner-section h2 {
+        max-width: 800px;
+        font-size: 38px;
+    }
+
+    .banner-section p {
+        width: 80%;
+        max-width: 800px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .banner-section h2 {
+        max-width: 800px;
+        font-size: 45px;
+    }
+
+    .banner-section p {
+        width: 80%;
+        max-width: 800px;
+        font-size: 35px;
+    }
+}

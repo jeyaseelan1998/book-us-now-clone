@@ -1,0 +1,25 @@
+.home-page-container {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    padding-left: 8px;
+}
+
+@media screen and (min-width: 240px) {
+    .wrapper {
+        padding-left: 5%;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .wrapper {
+        padding-left: 10%;
+    }
+}

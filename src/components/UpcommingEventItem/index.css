@@ -1,0 +1,55 @@
+.upcoming-event-card {
+    /* background-color: gray; */
+    display: grid;
+    row-gap: 15px;
+}
+
+.upcoming-event-card img {
+    width: 100%;
+}
+
+.upcoming-event-card .event-details {
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.upcoming-event-card .event-heading {
+    margin-bottom: 8px;
+    grid-column: 1/end;
+    font: 700 1rem/1.2 "Inter";
+    color: #191919;
+    text-align: left;
+}
+
+@media screen and (min-width:768px) {
+    .upcoming-event-card .event-heading {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .upcoming-event-card .event-heading {
+        font-size: 24px;
+    }
+}
+
+.upcoming-event-card .location-container {
+    grid-column: 1/3;
+    margin-top: 0;
+}
+
+.upcoming-event-card .location-container .location-icon {
+    font-size: 18px;
+}
+
+.upcoming-event-card .location-container p {
+    font-size: 14px;
+}
+
+.upcoming-event-card .weather-distance {
+    grid-column: 3/end;
+    color: #989090;
+    font-size: 14px;
+}

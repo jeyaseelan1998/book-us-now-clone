@@ -1,0 +1,367 @@
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 8px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 190px) {
+    .header-container {
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .header-container {
+        width: 90%;
+        margin: 0 auto 5px;
+        padding: 12px 0 8px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .header-container {
+        width: 85%;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        grid-template-columns: 175px 1fr;
+        row-gap: 15px;
+    }
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.website-logo {
+    color: #CF2D2D;
+    margin: 5px 0;
+    font-size: 18px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+@media screen and (max-width: 190px) {
+    .website-logo {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .website-logo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .website-logo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .website-logo {
+        font-size: 28px;
+    }
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 475px) {
+    .location-container {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .location-container {
+        margin-top: 0;
+    }
+}
+
+.location-icon,
+.right-arrow-icon {
+    font-size: 16px;
+    color: #989898;
+}
+
+@media screen and (min-width: 640px) {
+
+    .location-icon,
+    .right-arrow-icon {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .location-icon,
+    .right-arrow-icon {
+        font-size: 24px;
+    }
+}
+
+.location-container>p {
+    margin: 0 4px;
+    font: 500 12px/1.2 "Inter";
+    color: #989898;
+}
+
+@media screen and (min-width: 475px) {
+    .location-container>p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .location-container>p {
+        font-size: 16px;
+    }
+}
+
+.header-top-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+    .header-top-container {
+        margin: 0;
+    }
+}
+
+.mobile-ui {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-ui {
+        display: none;
+    }
+}
+
+.desktop-ui {
+    display: none;
+    align-self: center;
+    flex: 1;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .desktop-ui {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background: transparent;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 190px) {
+    .btn {
+        margin-left: 4px;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .btn {
+        margin-left: 12px;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .btn {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+.header-icon {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.category-btn,
+.fav-btn,
+.auth-btn {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font: 500 14px/1.2 "Inter";
+    background-color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .category-btn,
+    .fav-btn,
+    .auth-btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
+
+.category-btn {
+    background-color: black;
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .category-btn {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .category-btn {
+        margin-left: 15%;
+        margin-right: 15px;
+    }
+}
+
+.fav-btn {
+    color: #716f6f;
+    margin-right: 8px;
+}
+
+.auth-btn {
+    border: 1px solid #B0BABF;
+    color: #716f6f;
+}
+
+.search-input-container {
+    border: 1px solid #B0BABF;
+    border-radius: 4px;
+    margin: 0 8px;
+    display: flex;
+    padding: 5px 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .search-input-container {
+        flex: 1;
+    }
+}
+
+.search-input {
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    font: 400 14px/1.2 "Inter";
+    color: #716f6f;
+}
+
+.icon {
+    align-self: center;
+    color: #716f6f;
+    font-size: 14px;
+}
+
+.search-icon,
+.heart-icon,
+.user-icon {
+    font-size: 16px;
+    color: #989898;
+}
+
+@media screen and (max-width: 190px) {
+
+    .search-icon,
+    .heart-icon,
+    .user-icon {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+
+    .search-icon,
+    .heart-icon,
+    .user-icon {
+        font-size: 20px;
+    }
+}
+
+.navbar {
+    grid-column: 1/3;
+    user-select: none;
+    align-content: center;
+    overflow-x: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        grid-column: 2/3;
+    }
+
+    .swiper-wrapper {
+        display: grid;
+        justify-content: flex-start;
+    }
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #1E2022;
+    font: 400 12px/1 "Inter";
+    margin-right: 12px;
+    padding: 12px 0;
+    color: #989898;
+}
+
+
+@media screen and (min-width: 475px) {
+    .nav-item {
+        font-size: 12px;
+        margin-right: 15px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .nav-item {
+        font-size: 16px;
+        margin-right: 25px;
+    }
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .header-navbar-swiper>.swiper-wrapper {
+        display: grid;
+        grid-template-columns: repeat(7, 90px);
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header-navbar-swiper>.swiper-wrapper {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .header-navbar-swiper>.swiper-wrapper {
+        margin-left: 15%;
+    }
+}
