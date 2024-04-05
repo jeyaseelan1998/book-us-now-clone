@@ -1,6 +1,50 @@
-# Getting Started with Create React App
+# Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Software Engineer Intern (Frontend) - [GyanGrove](https://www.linkedin.com/jobs/view/3874867520/?refId=kjCcBY%2FTt%2FcuiD3LIlTIcA%3D%3D&trackingId=kjCcBY%2FTt%2FcuiD3LIlTIcA%3D%3D)
+
+Frontend Developer Internship [Assignment](https://docs.google.com/document/d/1G7KEJTCsgZzvzqVqmg23Zw7wDYm3Ioai597U6749ntU/edit#heading=h.9zmchqn2pvdm)
+
+# Live link
+
+Book Us Now Clone
+
+[Demo](https://660fde5336ff3a00a4839b29--book-us-now-clone.netlify.app/)
+
+## Install locally
+
+Source code available on [GitHub](https://github.com/jeyaseelan1998/book-us-now-clone).
+
+```
+git clone [repo_url]
+
+npm install
+
+npm start
+```
+
+## Design file structure
+
+- src/components/BannerSection
+- src/components/Home
+- src/components/Header
+- src/components/Loader
+- src/components/RecommendedShowItem
+- src/components/RecommendedShows
+- src/components/UpcomingEvents
+- src/components/UpcomingEventItem
+  
+### utils
+
+- src/utils/swiperBreakpoints.js
+
+## Libraries used
+
+```
+    date-fns: "^3.6.0",
+    react-icons: "^5.0.1",
+    react-loader-spinner: "^6.1.6",
+    swiper: "^11.1.0",
+```
 
 ## Available Scripts
 
@@ -39,32 +83,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
